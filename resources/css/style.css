@@ -1,0 +1,539 @@
+/** {
+    font-family: Poppins, sans-serif;
+}*/
+
+@font-face {
+    font-family: 'ChevinPro';
+    src: url('../fonts/ChevinPro-Medium.ttf');
+}
+
+
+h2,
+h3,
+.title-thnks-1,
+.title-thnks-2,
+.title-thnks-3 {
+    font-weight: 800;
+    font-family: 'ChevinPro' !important;
+}
+
+.navbar-padding-self {
+    padding: 0 3%;
+}
+
+.sectionForm {
+    background: #111848;
+    background-image: linear-gradient(50deg, #0f153b,#0f153b1a,rgba(0, 0, 0, 0.493),rgba(255, 255, 255, 0.664), rgba(255, 255, 255, 0.811)), url(../img/PORTADA-G-INVERSIONES.jpg);
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container-text-section-left {
+    padding-left: 4.5em !important;
+    padding-right: 4.5em !important;
+    padding-top: 7em !important;
+}
+
+.container-text-section-left-mobile {
+    display: none;
+}
+
+.form-inversiones {
+    background: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+.radio-buttons-monto {
+    padding: 0 3em !important;
+}
+
+.header-form {
+    padding: 0 5em;
+    text-align: center;
+}
+
+.header-form>.d-flex>h2 {
+    color: #131348;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+.title-form-inversiones {
+    padding: 1em 3em;
+    color: #111848;
+}
+
+.label-monto-invertir {
+    font-size: 18px !important;
+}
+
+
+.select-type-id {
+    background-color: #11184836 !important;
+}
+
+.input-form-inversiones {
+    background-color: #11184836 !important;
+    border: none !important;
+}
+
+.input-form-inversiones::-webkit-input-placeholder {
+    font-weight: 400 !important;
+    color: #000 !important;
+}
+
+
+.check-politicas {
+    font-size: 18px;
+}
+
+#submitForm {
+    background: #111848;
+    color: white;
+    border: none;
+    border-radius: .3em;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 5px 15px;
+    transition: .2s all;
+}
+
+#submitForm:hover {
+    background: #111848;
+    color: #e6a334;
+    border: none;
+    border-radius: .3em;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+
+.title-text-section-left>.txt-title-part-1 {
+    font-size: 3.5em;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'ChevinPro' !important;
+}
+
+/* 
+.title-text-section-left > .txt-title-part-2 {
+    font-size: 5em;
+    color: #131348;
+    background-color: white;
+    font-weight: 600;
+} */
+
+.title-form-inversiones-mobile {
+    display: none !important;
+}
+
+.redes-sociales-mobile {
+    display: none;
+}
+
+.footer-info-mobile {
+    display: none !important;
+}
+
+.redes-sociales-desktop>.row>.col>h6 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.title-thnks-1 {
+    font-size: 5em;
+    font-weight: 800;
+    margin-bottom: .6em;
+}
+
+.title-thnks-2 {
+    font-size: 2em;
+    font-weight: 600;
+    padding: 0 250px !important;
+    margin-bottom: 1.8em;
+}
+
+.title-thnks-3 {
+    font-size: 3em;
+    font-weight: 600;
+    padding: 0 50px !important;
+    margin-bottom: .8em;
+}
+
+.thanks-view {
+    color: #e59c25;
+    font-size: 3em;
+}
+
+.thanks-view:hover {
+    color: #fff;
+}
+
+.subtitle-text-section-left>h4 {
+    font-size: 2.5em;
+    text-align: left;
+    color: #131348;
+}
+
+.text-footer-left {
+    padding: 15px;
+}
+
+.footer-landing {
+    padding: 3em;
+    background-color: rgb(241, 249, 249);
+}
+
+.icons-rs {
+    text-align: center;
+}
+
+.icons-rs>a {
+    text-align: center;
+    padding: 0 5px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #111848;
+}
+
+.icons-rs>a:hover {
+    color: #111848;
+}
+
+.text-info-contacto {
+    text-align: right;
+}
+
+.font-info-contacto {
+    color: #111848;
+}
+
+i:hover {
+    color: #131348;
+}
+
+.info-contact-h-1:hover>.col-2>i {
+    color: #131348;
+}
+
+.info-contact-h-2:hover>.col-2>i {
+    color: #131348;
+}
+
+.info-contact-h-3:hover>.col-2>i {
+    color: #131348;
+}
+
+.info-contact-h-4:hover>.col-2>i {
+    color: #131348;
+}
+
+.text-footer-prestacapital {
+    text-align: justify;
+}
+
+.block-thnks {
+    padding: 0 9em;
+}
+
+.thanks {
+    padding: 2em 0;
+    height: 80vh;
+    text-align: center;
+    background-color: #131348;
+    color: #fff;
+}
+
+.txt-title-part-1-white {
+    color: #e6a334 !important;
+    background-color: #131348;
+    font-weight: 800;
+    font-family: 'ChevinPro' !important;
+    padding: 0px  10px 0px 10px;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1250px) {
+    .title-text-section-left>.txt-title-part-1 {
+        font-size: 2.5em;
+        font-weight: 800;
+        font-family: 'ChevinPro' !important;
+    }
+
+    .title-text-section-left>.txt-title-part-2 {
+        font-size: 4em;
+    }
+
+    .title-thnks-1 {
+        font-size: 3.5em !important;
+        font-weight: 800 !important;
+        margin-bottom: .6em !important;
+    }
+
+    .title-thnks-2 {
+        font-size: 1.5em !important;
+        font-weight: 600 !important;
+        padding: 0 250px !important;
+        margin-bottom: 1.8em !important;
+    }
+
+    .title-thnks-3 {
+        font-size: 2.5em !important;
+        font-weight: 600 !important;
+        padding: 0 50px !important;
+        margin-bottom: .8em;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .footer-landing {
+        padding: 1em;
+    }
+    .header-form>.d-flex>h2{
+        font-size: 1.5em
+    }
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 1000px) {
+    .title-text-section-left>.txt-title-part-1 {
+        font-size: 3em;
+        font-weight: 800;
+        font-family: 'ChevinPro' !important;
+    }
+
+    .title-text-section-left>.txt-title-part-2 {
+        font-size: 3em;
+    }
+
+    .header-form {
+        padding: 0 !important;
+    }
+
+
+    .header-form>.d-flex>h2 {
+        font-size: 1.9em;
+    }
+
+    .version-desktop>h3 {
+        font-size: 1.2em;
+    }
+
+    .select-type-id {
+        font-size: 13px !important;
+    }
+
+    .input-form-inversiones {
+        font-size: 13px !important;
+    }
+
+    .label-monto-invertir {
+        font-size: 16px !important;
+    }
+
+    .label-input-monto {
+        font-size: 13px;
+    }
+
+    .check-politicas {
+        font-size: 16px !important;
+    }
+
+    .icons-rs>a {
+        padding: 2px !important;
+    }
+
+    .title-thnks-1 {
+        font-size: 3.5em !important;
+        font-weight: 800 !important;
+        margin-bottom: .6em !important;
+    }
+
+    .title-thnks-2 {
+        font-size: 1.5em !important;
+        font-weight: 600 !important;
+        padding: 0 50px !important;
+        margin-bottom: 1.8em !important;
+    }
+
+    .title-thnks-3 {
+        font-size: 2.5em !important;
+        font-weight: 600 !important;
+        padding: 0 50px !important;
+        margin-bottom: .8em;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 990px) {
+    .title-text-section-left>.txt-title-part-1 {
+        font-size: 2em;
+        font-weight: 800;
+        font-family: 'ChevinPro' !important;
+    }
+
+    .title-text-section-left>.txt-title-part-2 {
+        font-size: 2em;
+    }
+
+    .title-thnks-1 {
+        font-size: 3.5em !important;
+        font-weight: 800 !important;
+        margin-bottom: .6em !important;
+    }
+
+    .title-thnks-2 {
+        font-size: 1.5em !important;
+        font-weight: 600 !important;
+        padding: 0 50px !important;
+        margin-bottom: 1.8em !important;
+    }
+
+    .title-thnks-3 {
+        font-size: 2.5em !important;
+        font-weight: 600 !important;
+        padding: 0 50px !important;
+        margin-bottom: .8em;
+    }
+
+}
+
+@media only screen and (max-width: 989px) and (min-width: 0px) {
+    .version-desktop {
+        display: none !important;
+    }
+
+    .header-form {
+        display: none !important;
+    }
+
+    .title-form-inversiones-mobile {
+        display: block !important;
+        text-align: center;
+        padding: 0.5em 0 0 0 !important;
+    }
+
+    .title-form-inversiones-mobile h3 {
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    .select-type-id {
+        font-size: .8em !important;
+    }
+
+    .input-form-inversiones {
+        font-size: .85em !important;
+    }
+
+    .radio-buttons-monto {
+        padding: 0 3.5em !important;
+    }
+
+    .label-input-monto {
+        font-size: 14px !important;
+    }
+
+    .check-politicas {
+        font-size: 15px;
+    }
+
+    .text-footer-left {
+        display: none;
+    }
+
+    .redes-sociales-desktop {
+        display: none;
+    }
+
+    .redes-sociales-mobile {
+        display: block;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .footer-info-desktop {
+        display: none;
+    }
+
+    .footer-info-mobile {
+        display: inherit !important;
+    }
+
+    #footer-info-contacto>div>div>p {
+        text-align: center;
+    }
+
+    .sectionForm {
+        border-radius: 1em 1em 0 0;
+    }
+
+    .sectionForm {
+        background: #111848;
+        background-image: linear-gradient(137deg, #1118484b, rgba(181, 229, 229, 0.248)), url(../img/PORTADA-G-INVERSIONES.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .container-inputs-form {
+        padding-top: 2em;
+    }
+
+    .container-text-section-left-mobile {
+        display: block;
+    }
+
+    .container-text-section-left-mobile>.row>.d-flex>.col-5>h3 {
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+
+    .title-thnks-1 {
+        font-size: 2.5em !important;
+        font-weight: 800 !important;
+        margin-bottom: .6em !important;
+    }
+
+    .title-thnks-2 {
+        font-size: 1em !important;
+        font-weight: 600 !important;
+        padding: 0 !important;
+        margin-bottom: 1.8em !important;
+    }
+
+    .title-thnks-3 {
+        font-size: 1.5em !important;
+        font-weight: 600 !important;
+        padding: 0 !important;
+        margin-bottom: .8em;
+    }
+
+    .thanks-view {
+        color: #e59c25;
+    }
+
+    .thanks-view-1 {
+        transform: translateX(-25px);
+        font-size: 3em !important;
+    }
+
+    .thanks-view-2 {
+        transform: translateX(25px);
+        font-size: 3em !important;
+    }
+
+    .thanks-view-1:hover {
+        color: #fff !important;
+    }
+
+    .thanks-view-2:hover {
+        color: #fff !important;
+    }
+
+    .block-thnks {
+        padding: 2em .5em !important;
+    }
+}
